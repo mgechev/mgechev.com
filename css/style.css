@@ -236,13 +236,13 @@
 	
 	/* Me */
 	
-		#me
+		#home
 		{
 			padding: 0;
 			height: 20em;
 		}
 		
-			#me .pic
+			#home .pic
 			{
 				display: block;
 				position: absolute;
@@ -252,14 +252,16 @@
 				text-decoration: none;
 			}
 			
-				#me .pic img
+				#home .pic img
 				{
 					position: relative;
 					display: block;
 					height: 100%;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
 				}
 			
-				#me .pic .arrow
+				#home .pic .arrow
 				{
 					display: block;
 					position: absolute;
@@ -282,26 +284,26 @@
 					transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 				}
 
-					#me .pic .arrow:before
+					#home .pic .arrow:before
 					{
 						position: relative;
 						padding-right: 0;
 						top: 0.125em;
 					}
 			
-					#me .pic .arrow span
+					#home .pic .arrow span
 					{
 						display: block;
 						text-indent: -9999px;
 					}
 				
-					#me .pic:hover .arrow
+					#home .pic:hover .arrow
 					{
 						width: 3em;
 						padding-right: 0.25em;
 					}
 			
-			#me header
+			#home header
 			{
 				position: absolute;
 				left: 0;
@@ -311,7 +313,7 @@
 				margin-left: 2.5em;
 			}
 			
-				#me header > h1
+				#home header > h1
 				{
 					position: absolute;
 					left: 0;
@@ -319,7 +321,7 @@
 					margin: 0;
 				}
 			
-				#me header > p 
+				#home header > p 
 				{
 					position: absolute;
 					left: 0;
@@ -752,6 +754,10 @@
       width: 1em;
       height: 1em;
       line-height: 0.9em;
+      -webkit-transition: -webkit-transform 0.3s;
+      -moz-transition: -moz-transform 0.3s;
+      -ms-transition: -ms-transform 0.3s;
+      transition: 0.3s transform;
     }
 
       #nav a.icon:before
@@ -776,17 +782,17 @@
 
   /* Me */
 
-    #me
+    #home
     {
     }
 
-      #me .pic
+      #home .pic
       {
         position: relative;
         display: block;
       }
 
-        #me .pic:before
+        #home .pic:before
         {
           content: '';
           position: absolute;
@@ -878,7 +884,6 @@
 			#nav a:before,
 			#nav a:after
 			{
-				display: none;
 			}
 		
 			#nav a span
@@ -910,3 +915,17 @@
 	}
 
 
+li {
+  list-style: none;
+}
+
+.icon:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.inactive {
+  display: none;
+}
