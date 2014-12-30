@@ -31,7 +31,7 @@
 
             <!-- Contact -->
               <article id="contact" class="panel inactive">
-                <header>
+                <header style="padding: 3em;">
                   <h2>Contact Me</h2>
                   <p>
                     You can find me in the social networks on the links bellow or at <strong>mgechev at gmail</strong>.
@@ -62,7 +62,6 @@
           $(currentPage).className = 'panel inactive';
           $(page).className = 'panel';
           currentPage = page;
-          e.preventDefault();
           return false;
         }
         location.hash = location.hash || '#' + currentPage;
