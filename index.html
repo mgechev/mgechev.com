@@ -1,78 +1,30 @@
 <!DOCTYPE hmtl>
 <html>
   <head>
-    <title>Minko Gechev | Freelance Consultant</title>
+    <title>Minko Gechev | Computer Scientist & Software Engineer</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
-    <!-- Wrapper-->
       <div id="wrapper">
-        <!-- Nav -->
           <nav id="nav">
-            <a href="#home" class="icon fa-home" id="home-btn"></a>
-            <a href="#contact" class="icon fa-envelope" id="contact-btn"></a>
+            <a href="https://github.com/mgechev" class="icon fa-github"></a>
+            <a href="https://blog.mgechev.com/" class="icon fa-home"></a>
+            <a href="https://twitter.com/mgechev" class="icon fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/mgechev" class="icon fa-linkedin"></a>
           </nav>
-        <!-- Main -->
           <div id="main">
-            <!-- Me -->
               <article id="home" class="panel">
                 <header>
                   <h1>Minko Gechev</h1>
-                  <p>Freelance Software Consultant</p>
+                  <p>CTO & Rhyme.com</p>
                 </header>
-                <a href="#work" class="jumplink pic">
-                  <img src="images/me.jpg" style="float: right" alt="" />
-                </a>
-              </article>
-
-            <!-- Contact -->
-              <article id="contact" class="panel inactive">
-                <header style="padding: 3em;">
-                  <h2>Contact Me</h2>
-                  <p>
-                    You can find me in the social networks on the links bellow or at <strong>mgechev at gmail</strong>.
-                  </p>
-                  <br>
-                  <ul>
-                    <li><i class="fa fa-github"></i> <a href="https://github.com/mgechev">GitHub</a></li>
-                    <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/mgechev">Twitter</a></li>
-                    <li><i class="fa fa-file-text"></i> <a href="http://blog.mgechev.com/">Blog</a></li>
-                    <li><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/mgechev">LinkedIn</a></li>
-                    <li><i class="fa fa-slideshare"></i> <a href="https://speakerdeck.com/mgechev">SpeakerDeck</a></li>
-                  </ul>
-                </header>
+                <div class="pic">
+                  <img src="images/me.png" style="float: right" alt="" />
+                </div>
               </article>
           </div>
-        <!-- Footer -->
       </div>
-      <script>
-      (function () {
-
-        function $(id) {
-          return document.getElementById(id);
-        }
-
-        var currentPage = 'home';
-
-        function togglePage(page, e) {
-          $(currentPage).className = 'panel inactive';
-          $(page).className = 'panel';
-          currentPage = page;
-          return false;
-        }
-        location.hash = location.hash || '#' + currentPage;
-
-        if (location.hash.substring(1) !== currentPage) {
-          togglePage(location.hash.substring(1));
-        }
-
-        $('home-btn').addEventListener('click', togglePage.bind(null, 'home'));
-        $('contact-btn').addEventListener('click', togglePage.bind(null, 'contact'));
-      }());
-      </script>
   </body>
 </html>
