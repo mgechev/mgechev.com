@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mgechev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mgechev.com
+  * I am mgechev (https://keybase.io/mgechev) on keybase.
+  * I have a public key ASBKbUc_z2gSL7zGFwAuOZrhqMx6LB1pBMEkoCGvibAJbwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204a6d473fcf68122fbcc617002e399ae1a8cc7a2c1d6904c124a021af89b0096f0a",
+      "host": "keybase.io",
+      "kid": "01204a6d473fcf68122fbcc617002e399ae1a8cc7a2c1d6904c124a021af89b0096f0a",
+      "uid": "c7fcb3c3e5ee24a7151c5d9e7e121019",
+      "username": "mgechev"
+    },
+    "merkle_root": {
+      "ctime": 1533683260,
+      "hash": "ef4edee6ebc50dfe63aed09c45ee6498820d4bbfc32350aaddf8bb37f0d0b3a1139eda9636abfe3750e2a77d6653aca01f2d405fef53d9a8805d6ba9b0acfdff",
+      "hash_meta": "eb6fe4a9b469a353d6d4cbc458a792ba7f13d9b0dd2ef0c7b4a6706d944268ce",
+      "seqno": 3423461
+    },
+    "service": {
+      "entropy": "hXWkgA+qUkR5+x09u/MvdmLB",
+      "hostname": "mgechev.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1533683284,
+  "expire_in": 504576000,
+  "prev": "8625022484ed519790d7b6b98a514152e9e40cf216b97164fece8518af58143f",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSm1HP89oEi+8xhcALjma4ajMeiwdaQTBJKAhr4mwCW8Kp3BheWxvYWTESpcCC8QghiUCJITtUZeQ17a5ilFBUunkDPIWuXFk/s6FGK9YFD/EIBnqZsCUHZnWoZKIXLA8S9ZF4Pn85IRyNfg+Gs4u0wINAgHCo3NpZ8RAqgyrcP/1q64suzm3HaYMDUR6f7UuN+dqoRCCI0oL9JwnunxLPFdP7YvC+Jni8W7MUCARy94hM8nrM48JmpEVCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHSksQF71rqfuMPDENJAwj9JgfotojNCxZgIMv8KwTcuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mgechev
+
+==================================================================
